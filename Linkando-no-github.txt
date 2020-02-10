@@ -1,0 +1,17 @@
+Criando novos repositórios (pastas) no github
+
+Toda vez que você criar um novo repositorio no github, para linkar ele
+com um diretório local da sua máquina, os seguintes passos devem ser feitos:
+
+1) Entre no seu diretório local via terminal
+2) Digite os seguintes comandos (nesta ordem)
+
+$ touch README.md
+$ git init
+$ git add README.md
+$ git commit -m "first commit"
+$ git remote add origin endereço-rep-git (ex.: git@github.com:marco-barbosa-bh2/trybe-course-html-2.git
+)
+$ git push -u origin master
+
+3) Pronto, só alterar e comitar
